@@ -1,0 +1,260 @@
+@import "fonts.css";
+
+/* Tags */
+
+body
+{
+	background-color: black;
+	color: white;
+	font-family: 'bones';
+	overflow: auto;
+
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family: 'headhunter';
+}
+
+a:link, a:visited 
+{
+	background-color: black;
+	color: white;
+	font-family: 'bones';
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	outline-color: white;
+}
+
+a:hover, a:active 
+{
+	background-color: white;
+	color: black;
+	font-family: 'bones';
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	outline-color: black;
+}
+
+img 
+{
+	display:none;
+}
+
+div 
+{
+
+}
+article
+{
+	margin-left: 5%;
+	word-wrap: break-word;
+}
+
+button
+{
+	  background-color: black;
+	  color: white;
+	  outline-color: white;
+	  font-family: 'bones';
+}
+
+hr
+{
+	color: white;
+}
+/* Ids */
+#face
+{
+
+}
+#chest
+{
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,35,35,1) 100%);
+	height: 600px;
+	width: 75%;
+	overflow-y: scroll;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+}
+#abs
+{
+
+}
+#time
+{
+
+}
+#quote
+{
+  color: white;
+  font-family: 'bones';
+}
+#slogan
+{
+	
+}
+#stomach
+{
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,35,35,1) 100%);
+	width: 75%;
+	height: 600px;
+	overflow-y: scroll;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Classes */
+.heading
+{
+	background: linear-gradient(0deg, rgba(35,35,35,1) 0%, rgba(0,0,0,1) 100%);
+	border-radius: 15px;
+	height: 40px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.container
+{
+	position: fixed;
+}
+
+p.portfolio
+{
+	text-align: left;
+}
+
+.navbar {
+	  overflow: hidden;
+	  position: fixed; /* Set the navbar to fixed position */
+	  bottom: 0; /* Position the navbar at the bottom of the page */
+	  width: 100%; /* Half width */
+	  text-align: center;
+  	  display: inline-block;
+
+}
+
+.navbar a {
+	  float: inherit;
+	  text-align: center;
+	  text-decoration: none;
+}
+
+.navbar div
+{
+
+}
+
+.navbar a:link, .navbar a:visited 
+{
+	background-color: black;
+	color: white;
+	font-family: 'headhunter';
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	outline-color: white;
+}
+
+.navbar a:hover, .navbar a:active 
+{
+	background-color: white;
+	color: black;
+	font-family: 'headhunter';
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	outline-color: black;
+}
+
+.body
+{
+	margin-bottom: 30px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+.numbers
+{
+	font-family: 'bones';
+}
+/* Special */
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+#stomach::-webkit-scrollbar {
+  display: none;
+}
+#chest::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#stomach, #chest {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+} 
+/* Mobile Check - will display (albeit have nothing in it) if page isn't mobile */
+.mobile
+{
+	display: initial;
+}
+/* Mobile */
+@media only screen and (hover: none) and (pointer: coarse){
+	body
+	{
+		font-size: 75%;
+	}
+	.mobile
+	{
+		display: none;
+	}
+
+}
